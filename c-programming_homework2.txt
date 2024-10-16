@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int operand1, operand2;
+
+    printf("피연산자1 : ");
+    scanf("%d", &operand1);
+
+    printf("피연산자2 : ");
+    scanf("%d", &operand2);
+
+    printf("- 사칙연산한 결과 -\n");
+    printf("%d + %d = %d\n", operand1, operand2, operand1 + operand2);
+    printf("%d - %d = %d\n", operand1, operand2, operand1 - operand2);
+    printf("%d X %d = %d\n", operand1, operand2, operand1 * operand2);
+
+    if (operand2 != 0) {
+        printf("%d / %d = %d\n", operand1, operand2, operand1 / operand2);
+    }
+    else {
+        printf("%d / %d = 계산 불가 (0으로 나눌 수 없습니다.)\n", operand1, operand2);
+    }
+
+    return 0;
+}
