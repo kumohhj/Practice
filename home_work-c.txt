@@ -1,7 +1,11 @@
 #include <stdio.h>
+#include<Window.h>
+#include<time.h>
 
-int a = 0;
-int b = 0;
+int abs(int a)
+{
+
+}
 
 int compare(int a, int b)
 {
@@ -24,4 +28,4 @@ void main()
 	compare();
 	printf();
 
-}
+}
